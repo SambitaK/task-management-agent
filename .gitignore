@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+task_agent/.env
+task_agent/.adk/
+.adk/
+chroma_data/
+data/file_task_workspace/
+data/report_task_workspace/
+data/backup_task_workspace/
+*.db
+*.zip
+*.bin
