@@ -1,11 +1,3 @@
-"""
-task_agent/instrumentation.py
-
-Sets up Arize Phoenix tracing for this agent, using Phoenix Cloud
-(Arize's hosted version of Phoenix — same product, same tracing engine,
-just without needing a local server).
-"""
-
 import os
 from dotenv import load_dotenv
 from phoenix.otel import register

@@ -1,24 +1,3 @@
-"""
-task_agent/agent.py
-
-This is the REAL Google ADK agent — replaces our old manual Groq
-tool-calling loop entirely. ADK's `Agent` class handles:
-  - sending the conversation + tool schemas to the model
-  - deciding which tool to call
-  - executing it
-  - feeding the result back
-  - producing the final natural language reply
-
-All of that is now internal to ADK. We just hand it tools and instructions.
-
-WHY WE WRAP EACH TOOL:
-ADK calls our tool functions directly. To get MongoDB logging and
-vector store embedding on every execution (our "memory" requirement),
-we wrap each raw tool function in a small logging layer BEFORE handing
-it to the Agent. This keeps tasks/file_task.py completely clean —
-it doesn't need to know databases exist at all.
-"""
-
 import json
 from google.adk import Agent
 

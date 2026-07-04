@@ -4,10 +4,6 @@ tasks/file_task.py
 FILE TASK tools — real local file system operations.
 Identical logic to before; ADK will wrap these as tools instead of Groq.
 
-IMPORTANT FOR ADK: tool functions should have clear type hints and a
-docstring — ADK reads these to generate the tool's schema automatically,
-similar to how we manually wrote TOOL_DEFINITIONS for Groq. With ADK,
-that boilerplate goes away.
 """
 
 import os

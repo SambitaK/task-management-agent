@@ -1,7 +1,7 @@
 """
 tasks/pipeline_executor.py
 
-LEVEL 2 MULTI-STEP PIPELINE EXECUTOR
+ MULTI-STEP PIPELINE EXECUTOR
 
 This is the core of the multi-step execution feature. It:
 1. Receives a structured task plan from the Planner LLM

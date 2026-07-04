@@ -3,8 +3,7 @@ tasks/notification_task.py
 
 NOTIFICATION TASK — dispatches real-time alerts via Slack webhooks.
 
-This is the simplest task type to wire up: a single HTTP POST to a
-webhook URL Slack gave you when you set up the Incoming Webhook app.
+a single HTTP POST to a webhook URL Slack gave you when you set up the Incoming Webhook app.
 """
 
 import os
