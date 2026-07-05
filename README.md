@@ -1,4 +1,4 @@
-# Astranova Task Management Agent
+# Task Management Agent
 
 An agentic AI platform where users interact entirely through natural language to create, execute, and monitor tasks across five distinct categories — each performing real system operations. Built using Google ADK, Gemini, MongoDB, ChromaDB, and Arize Phoenix.
 
